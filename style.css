@@ -1,0 +1,112 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+main {
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*---------------------------------------------------------*/
+
+header{        
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid black;
+    align-items: center;
+}
+.icono_html5{
+    display:flex;
+    font-size: 1.2rem;
+    color:black;
+    align-items: center;
+}
+.icono_html5 > span{
+    font-size: 2rem;
+    padding: 0px 5px;
+}
+
+.nombre {
+    padding: 10px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.icono_trespuntos{
+    display:flex;
+    font-size: 1.2rem;
+    color:black;
+    align-items: center;
+}
+.icono_trespuntos > span{
+    font-size: 2rem;
+    padding: 5px 25px;
+}
+
+/*------------------------------------------------------------*/
+
+section{        
+    display: flex;
+    justify-content: space-between;
+}
+.imagen{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://elviajerofeliz.com/wp-content/uploads/2018/05/Destinos-asia%CC%81ticos-1-Japo%CC%81n.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*-----------------------------------------------------------*/
+
+footer{        
+    width: 600px;
+    margin: 20px auto;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tres_iconos{
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+}
+.tres_iconos > span{
+    font-size: 2.5rem;
+    padding: 0px 5px;
+}
+.ultimo{
+    display:flex;
+    font-size: 1.2rem;
+    color:black;
+    align-items: center;
+}
+.ultimo > span{
+    font-size: 2.5rem;
+    padding: 5px 30px;
+}
+.parrafo{
+    padding: 1px 15px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+
+
